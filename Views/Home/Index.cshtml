@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Welcome to "Imperial Cars" business application!</h1>
+    <p>From here you can control all deliveries into our showroom.</p>
+    <ul>
+        <li style="display:inline">
+            <a href='@Url.Action("Index", "Deliveries")'>
+                <img src="~/image/deliveries_button.jpg" width="350px" />
+            </a>
+        </li>
+        <li style="display:inline">
+            <a href='@Url.Action("Index", "Cars")'>
+                <img src="~/image/cars_button.jpg" width="350px" />
+            </a>
+        </li>
+        <li style="display:inline">
+            <a href='@Url.Action("Index", "CarImages")'>
+                <img src="~/image/photos_button.jpg" width="350px" />
+            </a>
+        </li>
+    </ul>
+</div>
